@@ -13,7 +13,7 @@ class AddViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         textField.becomeFirstResponder()
     }
 }

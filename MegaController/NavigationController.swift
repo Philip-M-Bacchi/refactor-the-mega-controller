@@ -9,7 +9,7 @@
 import UIKit
 
 class NavigationController: UINavigationController {
-    override func childViewControllerForStatusBarStyle() -> UIViewController? {
+    override var childViewControllerForStatusBarStyle : UIViewController? {
         return topViewController
     }
 }
